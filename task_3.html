@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="task_3.css">
+</head>
+<body>
+
+    <header>
+        <h1>General Knowledge Quiz</h1>
+        <p>Answer all questions and get your score instantly!</p>
+    </header>
+
+    <main>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What is the capital of France?</p>
+                <label><input type="radio" name="q1" value="0"> Berlin</label>
+                <label><input type="radio" name="q1" value="1"> Paris</label>
+                <label><input type="radio" name="q1" value="0"> Madrid</label>
+            </div>
+
+            <div class="question">
+                <p>2. Which planet is known as the Red Planet?</p>
+                <label><input type="radio" name="q2" value="0"> Venus</label>
+                <label><input type="radio" name="q2" value="1"> Mars</label>
+                <label><input type="radio" name="q2" value="0"> Jupiter</label>
+            </div>
+
+            <div class="question">
+                <p>3. Who wrote 'Hamlet'?</p>
+                <label><input type="radio" name="q3" value="1"> William Shakespeare</label>
+                <label><input type="radio" name="q3" value="0"> Charles Dickens</label>
+                <label><input type="radio" name="q3" value="0"> Mark Twain</label>
+            </div>
+
+            <div class="question">
+                <p>4. What is the largest ocean on Earth?</p>
+                <label><input type="radio" name="q4" value="0"> Atlantic Ocean</label>
+                <label><input type="radio" name="q4" value="1"> Pacific Ocean</label>
+                <label><input type="radio" name="q4" value="0"> Indian Ocean</label>
+            </div>
+
+            <div class="question">
+                <p>5. Which gas do plants use for photosynthesis?</p>
+                <label><input type="radio" name="q5" value="1"> Carbon Dioxide</label>
+                <label><input type="radio" name="q5" value="0"> Oxygen</label>
+                <label><input type="radio" name="q5" value="0"> Nitrogen</label>
+            </div>
+
+            <button type="button" id="submitBtn">Submit Quiz</button>
+        </form>
+
+        <div id="result"></div>
+    </main>
+
+    <script src="task_3.js"></script>
+</body>
+</html>
